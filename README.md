@@ -3,35 +3,47 @@
 ## Windows
 
 ### Compile Code
-* ./mvnw.cmd clean compile -e
+
+- ./mvnw.cmd clean compile -e
 
 ### Test Code
-* ./mvnw.cmd clean test -e
+
+- ./mvnw.cmd clean test -e
 
 ### Jar Code
-* ./mvnw.cmd clean package -e
+
+- ./mvnw.cmd clean package -e
 
 ### Run Jar
-* Local:      ./mvnw.cmd spring-boot:run 
-* Background: nohup bash mvnw.cmd spring-boot:run &
+
+- Local: ./mvnw.cmd spring-boot:run
+- Background: nohup bash mvnw.cmd spring-boot:run &
 
 ### Testing Application
-* Abrir navegador: http://localhost:8080/rest/mscovid/test?msg=testing
+
+- Abrir navegador: http://localhost:8080/rest/mscovid/test?msg=testing
 
 ## Linux
 
 ### Compile Code
-* ./mvnw clean compile -e
+
+- ./mvnw clean compile -e
 
 ### Test Code
-* ./mvnw clean test -e
+
+- ./mvnw clean test -e
 
 ### Jar Code
-* ./mvnw clean package -e
+
+- ./mvnw clean package -e
 
 ### Run Jar
-* Local:      ./mvnw spring-boot:run 
-* Background: nohup bash mvnw spring-boot:run &
+
+- Local: ./mvnw spring-boot:run
+- Background: nohup bash mvnw spring-boot:run &
 
 ### Testing Application
-* curl -X GET 'http://localhost:8080/rest/mscovid/test?msg=testing'
+
+- curl -X GET 'http://localhost:8080/rest/mscovid/test?msg=testing'
+
+### DevOps
